@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# local environment secrets (Gmail app password, Cloudinary + JWT secrets, Atlas URI)
+.env
+.env.*
+!.env.example
+
+# runtime uploads written by the local Cloudinary fallback
+uploads/
